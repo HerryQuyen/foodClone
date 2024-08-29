@@ -1,0 +1,11 @@
+<section>
+    @for (item of listItems; track $index) {
+        <article >
+            <figure>
+                <img src="{{item.image}}" alt="">
+            </figure>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+        </article>
+    }
+</section>

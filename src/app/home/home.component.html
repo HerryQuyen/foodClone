@@ -1,0 +1,12 @@
+<app-header (isOpenSidebarChange)="handleEventOpenSidebar($event)"></app-header>
+
+@if(isOpenSidebar){
+    <app-sidebar (hideSidebarToggleChange)="handleEventClosedSlideBar($event)"></app-sidebar>
+}
+
+
+<main>
+    <router-outlet></router-outlet>
+</main>
+
+<app-footer></app-footer>

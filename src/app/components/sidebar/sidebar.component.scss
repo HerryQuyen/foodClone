@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    position: fixed;
+    width: 40%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-shadow: #ccc 2px 0 5px;
+}
+
+nav a{
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+nav a:hover{
+    background-color: #ccc;
+}

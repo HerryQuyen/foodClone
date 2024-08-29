@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    max-width: 1200px;
+    margin: auto;
+    height: 68px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header a{
+    cursor: pointer;
+    padding: 16px;
+    line-height: 36px;
+    border: none;
+    background-color: white;
+}
+
+header a:hover{
+    background-color: #ccc;
+}
